@@ -1,0 +1,26 @@
+.breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.breadcrumbs__item {
+  & .breadcrumbs__link::after {
+    content: "/";
+  }
+  &:last-child .breadcrumbs__link::after {
+    content: "";
+  }
+}
+.breadcrumbs__link {
+  position: relative;
+  font-family: var(--main-font);
+  color: var(--second-color-text);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  transition: color 0.3s ease-in-out;
+  &:hover {
+    color: var(--main-color-hover-text);
+  }
+}
