@@ -1,6 +1,7 @@
 import { breadcrumbsMock } from "../../const";
 import MainPage from "../../pages/main";
 import Breadcrumbs from "../breadcrumbs/breadcrumbs";
+import Footer from "../footer/footer";
 import ListProducts from "../list-products/list-products";
 import Logo from "../logo/logo";
 import Navbar from "../navbar/navbar";
@@ -22,6 +23,7 @@ function App() {
       </div>
 
       <ListProducts />
+      <Footer />
     </div>
   );
 }
