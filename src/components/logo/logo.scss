@@ -7,10 +7,10 @@
   color: #fff;
   text-decoration: none;
   display: block;
-  
+
   & svg {
     fill: #fff;
-    transition: fill .4s ease;
+    transition: all .4s ease;
   }
   & svg:hover {
     fill: #DF4826;

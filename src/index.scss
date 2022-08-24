@@ -6,3 +6,25 @@ body {
   margin: 0;
   padding: 0;
 }
+:root {
+  --main-font: "TRY Clother", 'Open Sans' , sans-serif;
+  --main-color-text: #252424;
+  --main-color-hover-text: #DF4826;
+}
+@font-face {
+  font-family: "TRY Clother";
+  src: url("../public/fonts/TRYClother-Bold.eot");
+  src: local("TRYClother-Bold"),
+    url("../public/fonts/TRYClother-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TRY Clother";
+  src: url("../public/fonts/TRYClother-Regular.eot");
+  src: local("TRYClother-Regular"), 
+   url("../public/fonts/TRYClother-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
