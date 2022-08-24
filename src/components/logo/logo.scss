@@ -1,0 +1,19 @@
+
+// .header__logo {
+
+// }
+
+.header__logo-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  
+  & svg {
+    fill: #fff;
+    transition: fill .4s ease;
+  }
+  & svg:hover {
+    fill: #DF4826;
+  }
+
+}
