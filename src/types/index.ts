@@ -15,3 +15,6 @@ export type ProductType = {
   img: string;
   price: number;
 };
+export type LogoProps = {
+  isActive : boolean
+}

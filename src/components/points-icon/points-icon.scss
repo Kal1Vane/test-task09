@@ -1,5 +1,7 @@
-.points__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-device-width: 640px) {
+  .points__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

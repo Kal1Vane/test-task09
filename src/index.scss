@@ -5,6 +5,10 @@
 body {
   margin: 0;
   padding: 0;
+  &.scroll-hiden {
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 :root {
   --main-font: "TRY Clother", 'Open Sans' , sans-serif;

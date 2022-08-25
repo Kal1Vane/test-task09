@@ -1,15 +1,23 @@
-
-.header__logo-link {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-
-  & svg {
-    fill: #fff;
-    transition: all .4s ease;
-  }
-  & svg:hover {
-    fill: #DF4826;
+@media screen and (max-device-width: 640px) {
+  .header__logo {
+    &.active {
+      & svg {
+        fill: #252424;
+      }
+    }
   }
 
+  .header__logo-link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+
+    & svg {
+      fill: #fff;
+      transition: all 0.4s ease;
+    }
+    & svg:hover {
+      fill: #df4826;
+    }
+  }
 }
